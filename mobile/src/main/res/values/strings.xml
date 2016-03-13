@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Represent!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Durbin">Dick Durbin (D) </string>
+    <string name="Kirk">Mark Kirk (R) </string>
+    <string name="Davis">Danny Davis (D)</string>
+    <string name="Feinstein">Dianne Feinstein (D)</string>
+    <string name="Boxer">Barbara Boxer (D)</string>
+    <string name="Eshoo">Anna Eshoo (D)</string>
+    <string name="Saratoga">Saratoga, CA</string>
+    <string name="EnterZipCode">Enter Your Zip Code</string>
+    <string name="Go">Go</string>
+    <string name="title_activity_detailed_barbara_boxer">DetailedBarbaraBoxer</string>
+    <string name="EndDate">Serving Until 2016</string>
+</resources>

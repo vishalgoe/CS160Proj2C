@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Represent!</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="Eshoo">Rep. Anna Eshoo</string>
+    <string name="Boxer">Sen. Barbara Boxer</string>
+    <string name="Feinstein">Sen. Dianne Feinstein</string>
+    <string name="title_activity_rep2">Rep2</string>
+
+</resources>

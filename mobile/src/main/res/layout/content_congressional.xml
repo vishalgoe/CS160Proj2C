@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:twittersdk="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:layout_toRightOf="@+id/Picture1"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Congressional1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:layout_toRightOf="@+id/Picture2"
+        android:id="@+id/Congressional2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:layout_toRightOf="@+id/Picture3"
+        android:id="@+id/Congressional3" />
+
+    <ImageView
+        android:id="@+id/Picture1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/Picture2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:id="@+id/Picture3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+
+    <com.twitter.sdk.android.tweetui.TweetView
+        android:id="@+id/bike_tweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        twittersdk:tw__tweet_id="510908133917487104"/>
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
